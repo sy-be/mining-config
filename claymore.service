@@ -3,7 +3,6 @@ Description=Start Claymore Miner
 Documentation=man:syslog-ng(8)
 
 [Service]
-User=<user>
 Type=simple
 ExecStart=/bin/sh /home/<user>/apps/claymore/default.bash
 Restart=always
