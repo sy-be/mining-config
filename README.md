@@ -10,6 +10,7 @@ Please replace usernames, eth address and emails with respective values.
 * create necessary symlinks (default.bash)
 
 ```
+systemctl set-default multi-user.target
 systemctl daemon-reload
 systemctl enable ping.service
 systemctl enable claymore.service
