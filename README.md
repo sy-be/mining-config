@@ -6,7 +6,8 @@ Please replace usernames, eth address and emails with respective values.
 * clone ROC: https://github.com/RadeonOpenCompute/ROC-smi
 * download claymore: https://github.com/nanopool/Claymore-Dual-Miner/releases
 * Polaris editor: https://github.com/jaschaknack/PolarisBiosEditor
-* Copy service files to /etc/systemd/system/
+* copy service files to /etc/systemd/system/
+* create necessary symlinks (default.bash)
 
 ```
 systemctl daemon-reload
