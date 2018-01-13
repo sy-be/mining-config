@@ -9,6 +9,8 @@ Please replace usernames, eth address and emails with respective values.
 * copy service files to /etc/systemd/system/
 * create necessary symlinks (default.bash)
 
+install amdgpu with --opencl=legacy,rocm --headless
+
 ```
 systemctl set-default multi-user.target
 systemctl daemon-reload
