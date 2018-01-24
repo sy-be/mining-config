@@ -10,6 +10,7 @@ Please replace usernames, eth address and emails with respective values.
 * create necessary symlinks (default.bash)
 * install amdgpu with --opencl=legacy,rocm --headless
 * get the bioses with atiflash and edit them with Polaris editor, sample values for RX 570 are included in screenshots.
+* generate epools.txt in nanopool
 
 ```
 systemctl set-default multi-user.target
