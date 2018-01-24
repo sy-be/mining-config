@@ -8,8 +8,8 @@ Please replace usernames, eth address and emails with respective values.
 * Polaris editor: https://github.com/jaschaknack/PolarisBiosEditor
 * copy service files to /etc/systemd/system/
 * create necessary symlinks (default.bash)
-
-install amdgpu with --opencl=legacy,rocm --headless
+* install amdgpu with --opencl=legacy,rocm --headless
+* get the bioses with atiflash and edit them with Polaris editor, sample values for RX 570 are included in screenshots.
 
 ```
 systemctl set-default multi-user.target
